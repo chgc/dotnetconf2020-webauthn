@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.container {
+  display: inline-block;
+}
+
+.user-form {
+  padding-top: 1em;
+}
+
+button:not(:last-child) {
+  margin-right: 1em;
+}
