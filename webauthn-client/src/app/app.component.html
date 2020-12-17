@@ -1,20 +1,22 @@
 <div class="container">
-    <h1>.NET Conf 2020 - 探索 .NET 新世界</h1>
-    <h2>無密碼時代終於要來了嗎</h2>
-    <form [formGroup]="userForm" class="user-form">
-        <div>
-            <mat-form-field>
-                <mat-label>顯示名稱</mat-label>
-                <input matInput type="text" formControlName="displayName">
-            </mat-form-field>
-        </div>
-        <div>
-            <mat-form-field>
-                <mat-label>帳號</mat-label>
-                <input matInput type="text" formControlName="userName">
-            </mat-form-field>
-        </div>
-    </form>
-    <button mat-raised-button color="primary" (click)="signup()">註冊 Authenicator</button>
-    <button mat-raised-button (click)="login()">登入</button>
+  <h1>.NET Conf 2020 - 探索 .NET 新世界</h1>
+  <h2>無密碼時代終於要來了嗎</h2>
+  <form [formGroup]="userForm" class="user-form">
+    <div>
+      <mat-form-field>
+        <mat-label>顯示名稱</mat-label>
+        <input matInput type="text" formControlName="displayName" />
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <mat-label>帳號</mat-label>
+        <input matInput type="text" formControlName="userName" />
+      </mat-form-field>
+    </div>
+  </form>
+  <button mat-raised-button color="primary" (click)="signup()">
+    註冊 Authenicator
+  </button>
+  <button mat-raised-button (click)="login()">登入</button>
 </div>
